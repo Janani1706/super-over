@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url("ground.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: burlywood;
+  margin-bottom: 30px;
+}
+.pic {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.name {
+  display: flex;
+  color: plum;
+  font-size: 30px;
+  font-style: bold;
+}
+.main {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 450px;
+  padding: 20px;
+  align-self: center;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#strike {
+  background-color: darkorange;
+  font-size: larger;
+  width: 300px;
+  height: 170 px;
+  color: white;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+#try {
+  background-color: darkorange;
+  font-size: larger;
+  width: 300px;
+  height: 170 px;
+  color: white;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+#res {
+  background-image: linear-gradient(to right, purple, yellow);
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.score {
+  color: whitesmoke;
+  font-size: x-large;
+  margin: 20px;
+  align-self: center;
+}
+
+.goals {
+  color: aqua;
+  font-size: x-large;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.goals {
+  display: flex;
+}
+.rows {
+  display: flex;
+  padding-left: 30px;
+}
